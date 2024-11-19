@@ -1,28 +1,31 @@
-This repository demonstrates two implementations of a click counter button using React:
-
+#This repository demonstrates two implementations of a click counter button using React:
 1. A class-based component approach.
 2. A functional component using React Hooks.
 
-The application renders two separate counters side by side, each showcasing a different React paradigm.
+The application renders two separate counters side by side, each showcasing a different React approach.
 
-Features
+**Features**
 A simple button that increments a counter on each click.
 Two implementations:
 1. Component Class: Traditional way of building React components.
 2. React Hooks: Modern, functional approach using useState.
 
 
-File Structure
+**File Structure**
 .
 ├── App.js       // Class-based counter implementation
+
 ├── App2.js      // Functional component counter implementation using Hooks
+
 ├── InfoText.js  // Text components describing the implementation type
+
 ├── index.js     // Entry point rendering both counters into separate roots
+
 └── README.md    // Documentation
 
 
 
-Components Overview
+**Components Overview**
 1. Class-Based Component (App.js)
     -Implements a counter using React.Component.
     -Manages state via this.state and updates it using this.setState.
@@ -37,7 +40,7 @@ Components Overview
 
 
 
-How It Works
+**How It Works**
 Class-Based Implementation (App.js)
     1.The counter is stored in the state object of the component.
     2.Clicking the button triggers incrementCounter, which updates the state using this.setState.
@@ -50,7 +53,7 @@ Functional Implementation (App2.js)
 
 
 
-Usage:
+**Usage:**
 Prerequisites
 Ensure you have the following installed:
     -Node.js (16.x or later)
@@ -58,14 +61,14 @@ Ensure you have the following installed:
 
 Installation
 Clone the repository:
-git clone https://github.com/irshad-here/React-Demo-Class-vs-Hooks.git
+`git clone https://github.com/irshad-here/React-Demo-Class-vs-Hooks.git`
 
-cd 'your project directory'
+`cd 'your project directory'`
 
 Install dependencies:
-npm install
+`npm install`
 
 Running the Application
 1.Start the development server:
- -npm start
+ - `npm start`
 2.Open your browser and navigate to http://localhost:3000.
