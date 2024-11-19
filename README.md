@@ -12,7 +12,9 @@ Two implementations:
 
 
 **File Structure**
+
 .
+
 ├── App.js       // Class-based counter implementation
 
 ├── App2.js      // Functional component counter implementation using Hooks
@@ -54,7 +56,9 @@ Functional Implementation (App2.js)
 
 
 **Usage:**
+
 Prerequisites
+
 Ensure you have the following installed:
     -Node.js (16.x or later)
     -npm (or yarn)
