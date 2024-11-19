@@ -79,15 +79,19 @@ Ensure you have the following installed:
 
 
 Installation
+
 Clone the repository:
 `git clone https://github.com/irshad-here/React-Demo-Class-vs-Hooks.git`
 
 `cd 'your project directory'`
 
 Install dependencies:
+
 `npm install`
 
 Running the Application
+
 1.Start the development server:
  - `npm start`
+   
 2.Open your browser and navigate to http://localhost:3000.
